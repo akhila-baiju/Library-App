@@ -1,6 +1,6 @@
 const express =require('express');
-const Userdata = require('./src/model/UserData')
-const Bookdata = require('./src/model/bookData')
+const Userdata = require('../src/model/UserData')
+const Bookdata = require('../src/model/bookData')
 const cors = require("cors");
 const app=new express();
 const jwt=require('jsonwebtoken');
