@@ -152,7 +152,9 @@ app.get('/api/books',function(req,res){
    });
 
 
+ var port = process.env.PORT || 3000;
 
-app.listen(3000,()=>{
-    console.log("server listening port 3000");
-})
+   app.listen(port,()=>{
+    console.log("server listening");
+   });
+
